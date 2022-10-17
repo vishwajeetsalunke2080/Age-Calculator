@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#caf0f8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Age to Minutes Conversion"
+        android:textColor="@color/black"
+        android:background="#90e0ef"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/dateSelectionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="355dp"
+        android:background="#48cae4"
+        android:padding="0dp"
+        android:text="Choose"
+        android:layout_marginLeft="185dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:text="Select your BirthDate"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/displayInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="249dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Your age in minutes"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/userDateOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="307dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Selected DoB"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+</RelativeLayout>
